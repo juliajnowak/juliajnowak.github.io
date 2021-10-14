@@ -1,0 +1,46 @@
+body{
+	background: #2e2c2b;
+}
+	
+h1 {
+	padding: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 2.5m;
+	color: #ede1da;
+}
+img{
+	position: relative;
+	width: 100%;
+}
+@media screen and (max-width: 767px){
+	body{
+		border: 10px dotted #ede1da;
+	}
+}
+@media screen and (min-width: 768px){
+	body{
+		background-color: #ede1da;
+	}
+	h1{
+		color: #2e2c2b;
+		font-weight: 600;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1200px){
+	body{ 
+		background: url(Nowak_Screenshot.PNG);
+	}
+	img{
+		display:none;
+	}
+	h1{
+		color: #ede1da;
+		font-size: 100px; 
+		padding: 30px;
+	}
+}
